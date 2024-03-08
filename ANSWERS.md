@@ -18,6 +18,8 @@ Part 1 - Basic Calculator :
 - Test paths : [1,2,22][1,3,22][1,4,22][1,5,22][1,6,22][1,7,22][1,8,22][1,9,22][1,10,22][1,11,22][1,12,22][1,13,22][1,14,22][1,15,22][1,16,22][1,17,18,22][1,17,19,22][1,17,20,22][1,17,21,22]
 
 5) Draw the EFG graph for the Calculator App
+   ![IMG_3417](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-eo2000/assets/116772744/c312c31e-5de3-4ad0-9897-2920376c0760)
+
 
 
 
