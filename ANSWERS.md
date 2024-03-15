@@ -21,6 +21,20 @@ Part 1 - Basic Calculator :
    ![IMG_3417](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-eo2000/assets/116772744/c312c31e-5de3-4ad0-9897-2920376c0760)
 
 
+Part 2 - Project App : 
+1) Draw the CFG graph for onCreate()
+ @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        // Restore the Saved State first so that it is available to
+        // OnContextAvailableListener instances
+        mSavedStateRegistryController.performRestore(savedInstanceState);
+        mContextAwareHelper.dispatchOnContextAvailable(this);
+        super.onCreate(savedInstanceState);
+        ReportFragment.injectIfNeededIn(this);
+        if (mContentLayoutId != 0) {
+            setContentView(mContentLayoutId);
+        }
+    }
 
 
 
