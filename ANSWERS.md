@@ -52,3 +52,4 @@ Part 2 - Project App :
   - Test paths : [1,2,3], [2,3,4], [3,4,5], [4,5,6]
     
 6) Draw the EFG graph: 
+<img width="309" alt="Screenshot 2024-03-15 at 3 48 22 PM" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-eo2000/assets/116772744/8e47bb19-29e6-4d93-b5ae-32879bfc05ff">
