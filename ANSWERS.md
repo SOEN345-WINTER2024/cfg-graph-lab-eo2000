@@ -48,6 +48,7 @@ Part 2 - Project App :
   - Test paths : [1,2,3,4,5,6]
 
 5) Compute edge-pair coverage for this CFG
-  - TR :
-  - Test paths :
+  - TR : [1,2,3,4,5,6]	
+  - Test paths : [1,2,3], [2,3,4], [3,4,5], [4,5,6]
+    
 6) Draw the EFG graph: 
