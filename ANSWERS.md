@@ -23,6 +23,7 @@ Part 1 - Basic Calculator :
 
 Part 2 - Project App : 
 1) Draw the CFG graph for onCreate()
+   
  @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         // Restore the Saved State first so that it is available to
@@ -36,6 +37,17 @@ Part 2 - Project App :
         }
     }
 
+<img width="433" alt="Screenshot 2024-03-15 at 3 29 36 PM" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-eo2000/assets/116772744/c0d64f93-7a09-449f-bf5f-8c67432a03f1">
 
 
+2) Compute node coverage for this CFG
+  - TR : [1], [2], [3], [4], [5], [6]
+  - Test paths : [1,2,3,4,5,6]
+4) Compute edge coverage for this CFG
+  - TR : [1,2], [2,3], [3,4], [4,5], [5,6]
+  - Test paths : [1,2,3,4,5,6]
 
+5) Compute edge-pair coverage for this CFG
+  - TR :
+  - Test paths :
+6) Draw the EFG graph: 
